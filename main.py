@@ -84,7 +84,7 @@ def main():
             title += ' - '
             title += article["alternateTitles"][0]["title"]
 
-        title += f' (+{article["wikidotInfo"]["voteCount"]})'
+        title += f' (+{article["wikidotInfo"]["rating"]})'
         title += f' by {article["wikidotInfo"]["createdBy"]["name"]}'
         # Format is "title - alternate title (+score) by Author"
 
